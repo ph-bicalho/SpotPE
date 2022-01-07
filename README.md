@@ -12,6 +12,7 @@ Nesse projeto utilizei pela primeira vez o Figma para criação de todos os íco
 ## EN
 
 SpotPocketEdition was a website I developed by myself with the objective of improving my knowledge of audio control via JavaScript.
+
 Since the default HTML-embedded audio control appears differently in each browser,
 I created my own command bar so that it looks the same in all browsers.
 
