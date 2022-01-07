@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotPE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="player">
+        <div class="titulo">
+            <h1>SpotPE</h1>
+            <p>Ouça músicas direto do seu navegador</p>
+        </div>
+        <div class="audio">
+            <img id="Cover" src="OIP.jfif" alt="album">
+            <h2>Streetcar - Daniel Caesar</h2>
+            <audio src="Streetcar - Daniel Caesar.mp3" type= "audio/mpeg" name="" > </audio>
+            <div class="controls">
+                <button id="back"><img src="back.png" alt="back"></button>
+                <button id="play"><img src="play.png" alt="play"></button>
+                <button id="pause"><img src="pause.png" alt="pause"></button>
+                <button id="next"><img src="next.png" alt="next"></button>
+                <div class="barra"><progress value="0" max="1"></progress><div class="ball"></div></div>
+                
+                <button id="volume">
+                    <img src="volume.png" alt="volume"> 
+                    <input id="volume-control" type="range" max="1" min="0" step="0.01" onchange="mudarVolume(this.value)">
+                </button>
+                
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>Made By : Pedro Bicalho</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
